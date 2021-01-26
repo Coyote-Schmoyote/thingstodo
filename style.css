@@ -1,0 +1,21 @@
+html, 
+body {
+    height: 100%;
+    background: rgb(188,108,37);
+    background: linear-gradient(54deg, rgba(188,108,37,1) 30%, rgba(221,161,94,1) 69%);
+}
+
+li:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child {
+    background-color: #fefae0;
+}
