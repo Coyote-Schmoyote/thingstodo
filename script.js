@@ -33,12 +33,13 @@ remove = (e) => {
 list.addEventListener("click", remove);
 
 //change word
-changeWord = (e) => {
-    if (things.innerHTML = "Things"){
+changeWord = () => {
+    if (things.innerHTML !=="Things") {
+        things.innerHTML="Things"
+    } else if (things.innerHTML = "Things"){
         if (confirm("Click 'OK' if you are over 16")) {
-            things.innerHTML="✨Shit✨";
-        };
-    };
+            things.innerHTML="✨Shit✨"}
+    }
 }
 
 things.addEventListener("click", changeWord);
